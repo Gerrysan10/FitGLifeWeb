@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+.ContRegister {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden; 
+}
+.contentr {
+    width: 50%; 
+    overflow: hidden;
+    padding: 0;
+}
+.return{
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.formulary {
+    display: flex;
+    flex-direction: column;
+    padding: 0vh 10%;
+    width: 80%;
+}
+.logor {
+    width: 250px;
+    height: 140px;
+    align-self: center;
+}
+.titleformulary {
+    font-size: 25px;
+}
+.input-container {
+    display: flex;
+    height: 55px;
+    background-color: #e8e7e7;
+    margin-bottom: 4%;
+}
+.logos {
+    width: 5%;
+    height: 40%;
+    align-self: center;
+}
+.input {
+    width: 90%;
+    border: 0;
+    background-color: #e8e7e7;
+    flex: 1;
+    padding: 0px 10px;
+}
+.contentbutton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.button {
+    width: 40%;
+    height: 50px;
+    background-color: #6ABDA6;
+    border-radius: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+}
+.textbutton {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #FCFCFC;
+}
+.image {
+    width: 50%; 
+    overflow: hidden;
+}
+.imgregister {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+@media (max-width: 700px ) {
+    .image{
+        display: none;
+    }
+    .contentr{
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .contentr {
+        display: flex;
+        flex-direction: column;
+    }
+    .formulary {
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .logor {
+        width: 50%;
+        height: 20%;
+        align-self: center;
+    }
+    
+    .inputs{
+        width: 90%;
+    }
+    .input{
+        padding: 5;
+    }
+    .logos{
+        width: 10%;
+    }
+    .button{
+        width: 80%;
+    }
+
+}

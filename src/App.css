@@ -1,0 +1,455 @@
+.fitlife-homepage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 75px;
+  background-color: #6ABDA6;
+}
+
+.logo-app {
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.logo-img {
+  width: 100%;
+  height: 90%;
+}
+
+.nav-one {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.nav-one ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+
+.nav-one ul li {
+  margin-left: 8%;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav-one a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  background-image: url('./images/fondogym.avif');
+  background-size: contain
+}
+
+.hero h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.hero a {
+  display: flex;
+  margin-top: 2%;
+  width: 20%;
+  height: 40px;
+  background-color: #A9D3AB;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  align-self: center;
+  border-radius: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+.routines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.title-section {
+  font-size: 25px;
+}
+
+.p-section {
+  font-size: 20px;
+}
+
+.routine-grid {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #A9D3AB;
+}
+
+.routine-item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22%;
+  margin: 10px;
+  background-color: rgb(223, 248, 231);
+  border-radius: 30px;
+}
+
+.image-routine {
+  width: 40%;
+  height: auto;
+}
+
+.nameroutine {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.organize {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  background-color: rgb(214, 235, 241);
+}
+
+.organize-grid {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.organize-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: 10px;
+}
+
+.image-organize {
+  width: 40%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.app-promo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.app-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.store-button{
+  width: 40%;
+  height: 50px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.img-app {
+  width: 40%;
+  height: 85%;
+  border-radius: 30px;
+  border: 5px solid rgb(10, 10, 10);
+}
+
+.download-cta {
+  font-size: 20px;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+}
+
+.cont-image-nosotros {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+}
+
+.logo-app2 {
+  width: 60%;
+  align-self: center;
+}
+
+.cont-nosotros {
+  width: 60%;
+}
+
+.container-footer {
+  display: flex;
+  width: 96%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6ABDA6;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.logo-fitcont {
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+
+.logo-fit {
+  width: 60%;
+}
+
+.contacto-img {
+  width: 15%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.footer-links a {
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  justify-content: center;
+}
+
+.icon a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon p {
+  font-weight: bold;
+  margin: 3px;
+}
+
+@media (max-width: 1024px) {
+  .logo-fit {
+    width: 80%;
+  }
+
+  .icon p {
+    display: none;
+  }
+
+  .footer-links {
+    width: 50%;
+  }
+
+  .social-icons {
+    width: 5%;
+  }
+
+  .contacto-img {
+    width: 80%;
+    padding: 5px;
+  }
+  .store-button{
+    margin-top: 0;
+  }
+  .app-image{
+    width: 30%;
+  }
+  .img-app{
+    width: 70%;
+    border: 3px solid;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 770px) {
+  .img-app {
+    width: 80%;
+  }
+
+  .title-section {
+    font-size: 20px;
+  }
+
+  .p-section {
+    font-size: 15px;
+  }
+
+  .download-cta {
+    font-size: 18px;
+  }
+
+  .nameroutine {
+    font-size: 15px;
+  }
+
+  .logo-app2 {
+    width: 80%;
+    height: 55%;
+    align-self: center;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+  }
+
+  .hero a {
+    width: 30%;
+  }
+
+  .nav-one {
+    width: 85%;
+  }
+
+  .nav-one ul li {
+    font-size: 15px;
+
+  }
+}
+
+@media (max-width: 550px) {
+  .container-nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo-app {
+    width: 20%;
+    ;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .logo-img {
+    width: 60%;
+    height: auto;
+  }
+
+  .nav-one {
+    width: 100%;
+  }
+
+  .nav-one ul {
+    justify-content: space-around;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .nav-one ul li {
+    margin: 0;
+    font-size: 14px;
+  }
+  .store-button{
+    font-size: 14px;
+    height: 35px;
+    width: 50%;
+  }
+  .organize {
+    padding: 0;
+    
+  }
+  .organize p{
+    text-align: center;
+  }
+  .app-image{
+    width: 35%;
+  }
+  .img-app{
+    width: 90%;
+    border: 3px solid;
+    border-radius: 15px;
+  }
+  .app-info{
+    width: 60%;
+    padding-left: 2%;
+  }
+}
+
+@media (max-width: 431px) {
+  .hero {
+    height: 200px;
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+
+  .hero a {
+    font-size: 14px;
+    width: 35%;
+  }
+
+  .title-section {
+    font-size: 16px;
+  }
+
+  .p-section {
+    font-size: 14px;
+  }
+
+  
+  .download-cta {
+    font-size: 15px;
+  }
+  .nameroutine{
+    font-size: 13px;
+  }
+  .logo-app2 {
+    width: 80%;
+    height: 45%;
+   
+  }
+  .routine-item2{
+    border-radius: 20px;
+  }
+  .store-button{
+    width: 65%;
+  }
+}
